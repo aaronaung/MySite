@@ -41,6 +41,14 @@ OTHER CSS
 /*=========================================
 COMMON CLASS
 ==========================================*/
+video::-webkit-media-controls-volume-slider {
+    display:none;
+}
+
+video::-webkit-media-controls-mute-button {
+    display:none;
+}
+
 .hide_ {
   opacity: 0;
   visibility: visible;
